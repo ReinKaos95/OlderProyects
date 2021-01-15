@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portal POO</title>
+  <link href="CSS/default.css" rel="stylesheet">
+  <script defer src="JS/script.js"></script>
+</head>
+<body>
+
+<main>
+<h1>Diagramas orientados a objetos</h1>
+  
+</main>
+    <div class="btn-group">
+  <button type="button" class="open-modal" data-open="modal1">
+   Diagrama UML
+  </button>
+  <button type="button" class="open-modal" data-open="modal2">
+    Diagrama de clases
+  </button>
+    <button type="button" class="open-modal" data-open="modal3">
+    Casos de uso
+  </button>
+</div>
+
+<div class="modal" id="modal1">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Lenguaje UML
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+       <img src="IMG/download.png">
+      <h3>El Lenguaje Unificado de Modelado (UML) fue creado para forjar un lenguaje de modelado visual común y semántica y sintácticamente rico para la arquitectura, el diseño y la implementación de sistemas de software complejos, tanto en estructura como en comportamiento. UML tiene aplicaciones más allá del desarrollo de software, p. ej., en el flujo de procesos en la fabricación.</h3>
+    </section>
+
+  </div>
+</div>
+
+<div class="modal" id="modal2">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Diagrama de clases
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <img src="IMG/clase-interfaz.png">
+      <p>En ingeniería de software, un diagrama de clases en Lenguaje Unificado de Modelado (UML) es un tipo de diagrama de estructura estática que describe la estructura de un sistema mostrando las clases del sistema, sus atributos, operaciones (o métodos), y las relaciones entre los objetos.</p>
+      <p>Relaciones: Una relación es un término general que abarca los tipos específicos de conexiones lógicas que se pueden encontrar en los diagramas de clases y objetos. UML presenta las siguientes relaciones:</p>
+<p>Enlace: Un enlace es la relación más básica entre objetos.</p>
+<p>Asociación: Una asociación representa a una familia de enlaces. Una asociación binaria (entre dos clases) normalmente se representa con una línea continua. Una misma asociación puede relacionar cualquier número de clases. Una asociación que relacione tres clases se llama asociación ternaria.</p>
+<p>Agregación: La agregación o agrupación es una variante de la relación de asociación “tiene un”: la agregación es más específica que la asociación. Se trata de una asociación que representa una relación de tipo parte-todo o parte-de.</p>
+<p>Como se puede ver en la imagen del ejemplo (en inglés), un Profesor 'tiene una' clase a la que enseña.</p>
+<p>Composición
+Es un método llamado en el momento de la creación de instancias.</p>
+<p>Herencia: La representación en UML de una relación de composición es mostrada con una figura de diamante rellenado del lado del la clase contenedora, es decir al final de la línea que conecta la clase contenido con la clase contenedor.
+</p>
+    </section>
+  </div>
+</div>
+
+
+<div class="modal" id="modal3">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Casos de uso
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <img src="IMG/semana2-casosdeuso-solucion.jpg">
+      <p>Un caso de uso es una descripción de las acciones de un sistema desde el punto de vista del usuario. Es una herramienta valiosa dado que es una técnica de aciertos y errores para obtener los requerimientos del sistema, justamente desde el punto de vista del usuario.</p>
+      <img src="IMG/3.png">
+      <p>Sistema: El rectángulo representa los límites del sistema que contiene los casos de uso. Los actores se ubican fuera de los límites del Sistema.</p>
+<p>PSistema: El rectángulo representa los límites del sistema que contiene los casos de uso. Los actores se ubican fuera de los límites del Sistema.</p>
+<p>Actor: Un diagrama de caso de uso contiene los símbolos del actor y del caso de uso, junto con líneas conectoras. Los actores son similares a las entidades externas; existen fuera del sistema. El término actor se refiere a un rol específico de un usuario del sistema.</p>
+    </section>
+  </div>
+</div>
+<footer class="page-footer">
+
+<a href="index.html">volver al inicio</a>
+</footer>
+
+</body>
+</html>

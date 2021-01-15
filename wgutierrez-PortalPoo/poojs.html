@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portal POO</title>
+  <link href="CSS/default.css" rel="stylesheet">
+  <script defer src="JS/script.js"></script>
+</head>
+<body>
+
+<main>
+<h1>Programación orientada a objetos de JavaScript</h1>
+  
+</main>
+    <div class="btn-group">
+  <button type="button" class="open-modal" data-open="modal1">
+   POO en JavaScript
+  </button>
+  <button type="button" class="open-modal" data-open="modal2">
+    Programación orientada a prototipos
+  </button>
+    <button type="button" class="open-modal" data-open="modal3">
+    Sintaxis
+  </button>
+     <button type="button" class="open-modal" data-open="modal4">
+    Prototipado vs objetos
+  </button>
+</div>
+
+<div class="modal" id="modal1">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      POO en JavaScript      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+       <img src="IMG/OOP-IN-JS-1.png">
+      <h3>JavaScript es diferente a los otros lenguajes, ya que los conceptos como herencia, polimorfismo y encapsulamiento debido a su naturaleza no existen como tal; por ejemplo el encapsulamiento en java se maneja declarando una propiedad o método como private, qué se le conoce como modificadores de acceso, bueno en JS no existen modificadores de acceso, entonces, ¿no hay forma de encapsular en JS? la respuesta es sí, pero no de esa forma, para eso se utilizan las closures</h3>
+    </section>
+
+  </div>
+</div>
+
+<div class="modal" id="modal2">
+  <div class="modal-dialog">
+    <header class="modal-header">
+     Programación orientada a prototipos
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <img src="IMG/d963763934d4.jpg">
+      <p>En los fundamentos de POO vimos un poco de clases, herencia, etc.; a pesar de que nos referimos a ellas como clases, realmente son objetos, por eso se les conoce como fake class, pero vamos por pasos… primero veamos cómo funciona JS, y para entenderlo es viendo cadena de prototipos.</p>
+      <p>Si nosotros tuviéramos los ojos azules, quizás alguno de nuestros padres también los pueden tener, si no es así quizás nuestros abuelos o algún antepasado más remoto seguro que sí lo tenía, ya que se encontró en algún punto esta característica; entonces, siguiendo este ejemplo entendemos que a nuestro ADN se le va adhiriendo información y si no encuentra un color de ojos en nuestra línea de ancestros directa buscará a la siguiente hasta encontrarlo, el modelo basado en prototipos de JavaScript y la cadena de prototipos funciona de una forma muy parecida al ADN.</p>
+
+    </section>
+  </div>
+</div>
+
+
+<div class="modal" id="modal3">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Casos de uso
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <img src="IMG/1_fZ5twC9w6ak6_pHYZSbCfQ.png">
+      <p>Cuando se crea una nueva instancia del objeto a partir de una función constructora, su funcionalidad central (tal como se define en su prototipo, que exploraremos en el artículo Prototipos de objetos) no se copia en el nuevo objeto como lenguajes OO "clásicos", sino que la funcionalidad está vinculada a través de una cadena de referencia llamada cadena prototipo.</p>
+      <img src="IMG/1_vcKDi67eNmhQ-Cl0LhVJWQ.jpg">
+      <p>Otras formas de crear instancias de objetos
+Hasta ahora hemos visto dos diferentes formas de crear una instancia de objeto — declarando un objeto literal, y usando una función constructora (ver arriba).
+Esto tiene sentido, pero hay otras formas — se muestran aquí para que te vayas familiarizando en caso de encontrarte con ellas.</p>
+
+
+    </section>
+  </div>
+</div>
+
+
+<div class="modal" id="modal4">
+  <div class="modal-dialog">
+    <header class="modal-header">
+     Prototipado vs objetos
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+     
+      <p>En el paradigma orientado a objetos, cuando se suscita el problema de que existan diferentes objetos con igual comportamiento pero diferente identidad y estado interno, podemos abordarlo de diferentes formas. Dos esquemas muy usados son el de clases y el que se basa en prototipos. Cada lenguaje (o herramienta) suele implementar una sóla de éstas opciones, aunque existen variaciones. Los lenguajes más tradicionales (como Java, Smalltalk, y C#) usan el esquema de clases y herencia, y en otros lugares (como Javascript, ó en el Object Browser para Smalltalk), se usa el esquema de prototipado.</p>
+      <img src="IMG/1_vcKDi67eNmhQ-Cl0LhVJWQ.jpg">
+      <p>¿Qué pasa si pepita no es la única golondrina que nos interesa tener en nuestro programa?. También están josefa y pepona que comen y vuelan como pepita y también deben tener una energía que podamos monitorear. Estaría bueno que josefa y pepona puedan tener el mismo comportamiento que pepita sin tener que definir lo mismo 3 veces. Aquí es donde entran los conceptos de clase y de prototipo, dependiendo de las herramientas que tengamos disponibles.</p>
+<p>La POO se centra en clases y objetos. Al representar variables como objetos, se le puede pasar una función (método). Un objeto que pertenece a una clase en particular se puede tratar de forma independiente. La POO puede estar basada en clases, que, en este caso, los objetos se basan en clases predefinidas. La POO basada en prototipos también existe, por lo que no hay necesidad de clases y solo se utilizan objetos.</p>
+
+
+<p>La programación procedimental no necesita objetos. Como su nombre lo indica, tiene procedimientos que podrían ser estructuras de datos, rutinas y subrutinas.</p>
+
+    </section>
+  </div>
+</div>
+<footer class="page-footer">
+
+<a href="index.html">volver al inicio</a>
+</footer>
+
+</body>
+</html>

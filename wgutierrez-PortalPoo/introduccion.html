@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Portal POO</title>
+  <link href="CSS/default.css" rel="stylesheet">
+  <script defer src="JS/script.js"></script>
+</head>
+<body>
+
+    <div class="btn-group">
+  <button type="button" class="open-modal" data-open="modal1">
+    ¿Que es la programacion orientada a objetos?
+  </button>
+  <button type="button" class="open-modal" data-open="modal2">
+    Caracteristicas
+  </button>
+    <button type="button" class="open-modal" data-open="modal3">
+    Elementos
+  </button>
+</div>
+<aside>
+	 <h1>Contenido principal sobre la programacion orientada a objetos</h1>
+ <h3>Varios conceptos ideales detallados para introducirse en el mundo de la programacion orientada a objetos</h3>
+</aside>
+<div class="modal" id="modal1">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Programacion Orientada a Objetos
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+    	<img src="IMG/download.jpg">
+      <p>La programación Orientada a objetos (POO, u OOP según sus siglas en inglés) es un paradigma de programación que usa objetos en sus interacciones, para diseñar aplicaciones y programas informáticos.</p>
+      <p>La programación orientada a objetos es un paradigma de programación que utiliza la abstracción para crear modelos basados ​​en el mundo real. Utiliza diversas técnicas de paradigmas previamente establecidas, incluyendo la modularidad, polimorfismo y encapsulamiento. Hoy en día, muchos lenguajes de programación (como Java, JavaScript, C#, C++, Python, PHP, Ruby y Objective-C) soportan programación orientada a objetos (POO).</p>
+      <p>POO pretende promover una mayor flexibilidad y facilidad de mantenimiento en la programación y es muy popular en la ingeniería de software a gran escala. Gracias a su fuerte énfasis en la modularidad, el código orientado a objetos está concebido para ser más fácil de desarrollar y más fácil de entender posteriormente, prestándose a un análisis más directo, a una mayor codificación y comprensión de situaciones y procedimientos complejos que otros métodos de programación menos modulares.</p>
+      <p>Los conceptos de la POO tienen origen en Simula 67, un lenguaje diseñado para hacer simulaciones, creado por Ole-Johan Dahl y Kristen Nygaard, del Centro de Cómputo Noruego en Oslo. En este centro se trabajaba en simulaciones de naves, que fueron confundidas por la explosión combinatoria de cómo las diversas cualidades de diferentes naves podían afectar unas a las otras. La idea surgió al agrupar los diversos tipos de naves en diversas clases de objetos, siendo responsable cada clase de objetos de definir sus "propios" datos y comportamientos. Fueron refinados más tarde en Smalltalk, desarrollado en Simula en Xerox PARC (cuya primera versión fue escrita sobre Basic) pero diseñado para ser un sistema completamente dinámico en el cual los objetos se podrían crear y modificar "sobre la marcha" (en tiempo de ejecución) en lugar de tener un sistema basado en programas estáticos.</p>
+    </section>
+
+  </div>
+</div>
+
+<div class="modal" id="modal2">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Caracteristicas
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <img src="IMG/15df69a0-87b6-41a6-a14c-22c0e0ec28bf.png">
+      <p>Existe un acuerdo acerca de qué características contempla la "orientación a objetos". Las características siguientes son las más importantes</p>
+      <p>Clase: Define las características del Objeto.</p>
+<p>Objeto
+Una instancia de una Clase.</p>
+<p>Propiedad
+Una característica del Objeto, como el color.</p>
+<p>Método
+Una capacidad del Objeto, como caminar.</p>
+<p>Constructor
+Es un método llamado en el momento de la creación de instancias.</p>
+<p>Herencia
+Una Clase puede heredar características de otra Clase.</p>
+<p>Encapsulamiento
+Una Clase sólo define las características del Objeto, un Método sólo define cómo se ejecuta el Método.</p>
+<p>Abstracción
+La conjunción de herencia compleja, métodos y propiedades que un objeto debe ser capaz de simular en un modelo de la realidad.</p>
+<p>Polimorfismo
+Diferentes Clases podrían definir el mismo método o propiedad.</p>
+    </section>
+  </div>
+</div>
+
+
+<div class="modal" id="modal3">
+  <div class="modal-dialog">
+    <header class="modal-header">
+      Elementos adicionales
+      <button class="close-modal" aria-label="close modal" data-close>
+        ✕  
+      </button>
+    </header>
+    <section class="modal-content">
+      <img src="IMG/programacion-gif-5.gif">
+      <p>La POO es una forma de programar que trata de encontrar una solución a estos problemas. Introduce nuevos conceptos, que superan y amplían conceptos antiguos ya conocidos.</p>
+      <p>Modularidad: Se denomina "modularidad" a la propiedad que permite subdividir una aplicación en partes más pequeñas (llamadas módulos), cada una de las cuales debe ser tan independiente como sea posible de la aplicación en sí y de las restantes partes.</p>
+<p>Principio de ocultación: Cada objeto está aislado del exterior, es un módulo natural, y cada tipo de objeto expone una "interfaz" a otros objetos que especifica cómo pueden interactuar con los objetos de la clase.</p>
+<p>Recolección de basura: La recolección de basura (garbage collection) es la técnica por la cual el entorno de objetos se encarga de destruir automáticamente, y por tanto desvincular la memoria asociada, los objetos que hayan quedado sin ninguna referencia a ellos. Esto significa que el programador no debe preocuparse por la asignación o liberación de memoria, ya que el entorno la asignará al crear un nuevo objeto y la liberará cuando nadie lo esté usando.</p>
+    </section>
+  </div>
+</div>
+
+<footer class="page-footer">
+<a href="index.html">volver al inicio</a>
+</footer>
+
+</body>
+</html>

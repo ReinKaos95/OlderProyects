@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sistema de Inscripcion</title>
+</head>
+<body>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+<center>
+	<legend>Sistema de inscripcion</legend>
+	<fieldset>
+		<form id="frmRegister" onsubmit="rRegistration(event)">
+			<input type="text" name="nombre" value="nombre">
+			<input type="text" name="apellido" value="apellido">
+			<input type="text" name="cedula" value="cedula">
+			<h3>fecha de nacimiento</h3>
+			<input type="date" name="fecha">
+			<h4>genero</h4>
+			<select name="genero">
+				<option value="femenino">Femenino</option>
+				<option value="masculino">Masculino</option>
+			</select>
+			<br>
+			<br>
+		<fieldset>
+			<center>
+			<legend>Datos adicionales</legend>
+			Copia de cedula de identidad 
+			<input type="checkbox" name="copia">
+			Copia Partida de Nacimiento 
+			<input type="checkbox" name="copia2">
+			Copia de titulo de bachiller 
+			<input type="checkbox" name="copia3">
+			Copia de certificacion de calificaciones
+			<input type="checkbox" name="copia4">
+			Certificado OPSU
+			<input type="checkbox" name="opsu">
+			Fondo negro autenticado 
+			<input type="checkbox" name="fondo">
+			<br>
+			<br>
+			<br>
+			<br>
+			<button onclick="Inscribir();">Inscribir</button>
+			</form>
+		</fieldset>
+	</fieldset>
+			<br>
+			<br>
+</center>
+</center>
+<center>
+	<legend>Lista de estudiantes</legend>
+	<fieldset>
+		<table>
+		</table>
+	</fieldset>
+</center>
+</body>
+<script src="JS/ajax.js"></script>
+<script src="JS/crud.js"></script>
+</html>

@@ -1,0 +1,1 @@
+const Inscribir = async() => await sendRequest('Controller', {});
